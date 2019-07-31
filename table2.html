@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <table class="table2-parrent">
+        <caption>Таблица РОДИТЕЛЬСКАЯ</caption>
+        <tr>
+          <td colspan="2">1-2</td>
+          <td class="three-parrent">3</td>
+        </tr>
+        <tr>
+          <td class="for-parrent">4</td>
+          <td colspan="2" rowspan="2">
+            <table class="table2-child">
+              <caption>Таблица ДОЧЕРНЯЯ</caption>
+              <tr>
+                <td>1</td>
+                <td rowspan="3">2-5-8</td>
+                <td class="threesix-child" rowspan="2">3-6</td>
+              </tr>
+              <tr>
+                <td class="forseven-child" rowspan="2">4-7</td>
+              </tr>
+              <tr>
+                <td class="nine-child">9</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>7</td>
+        </tr>
+    </table>
+</body>
+</html>
